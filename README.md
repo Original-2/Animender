@@ -7,7 +7,7 @@ An AI that recommends anime based on personal history.
 * make a logo
 * improve model (will be hard as the model is already low dimension and still takes a long time to train)
 * (maybe) make an app
-<br><img src="https://media3.giphy.com/media/L3bj6t3opdeNddYCyl/giphy.gif" alt="Do You Want To Develop An App GIFs - Get the best GIF on GIPHY"/>![image]
+<br><img src="https://media3.giphy.com/media/L3bj6t3opdeNddYCyl/giphy.gif" alt="Do You Want To Develop An App GIFs - Get the best GIF on GIPHY"/>
 
 # model explanation
 <br>--------------------- architecture ---------------------
