@@ -20,7 +20,6 @@ An AI that recommends anime based on personal history.
 <br> I got all animes a user has watched from the kaggle dataset https://www.kaggle.com/hernan4444/anime-recommendation-database-2020 and then I corrupted the data - this involved taking out one of the animes. The anime list remaining is the input. The target is the one that I had taken out. The batch is all of the possibilities of taking one out. This relies on the fact that every anime a user has finished was liked, however this makes sense as they would have likely dropped the show if they didn't. This can be seen in the ratings given, with a mode of 8/10. I only used the 1000 most popular animes as the training time would go up fast with diminishing returns. In the future if #i have access to better tech then I may allow more.
 
 # To be done
-* run and publish on kaggle
 * make a github pages where people can use it
 * make a logo
 * improve model (will be hard as the model is already low dimension and still takes a long time to train)
