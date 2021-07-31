@@ -63,7 +63,7 @@ for (const [key, value] of Object.entries(file[0])) {
 }
 
 async function load_model() {
-    let m = await tflite.loadTFLiteModel('file://optimised_model.tflite')
+    let m = await tflite.loadTFLiteModel('http://optimised_model.tflite')
     return m;
 }
 
