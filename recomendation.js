@@ -62,18 +62,14 @@ for (const [key, value] of Object.entries(file[0])) {
   watched[value] = 0
 }
 
+const tfliteModel = tflite.loadTFLiteModel(
+    "optimised_model.tflite");
+
 function setWatched(num){
     if (watched[num] == 0){
         watched[num] = 1
         } else{
         watched[num] = 0;
     }
+    var pred = tfliteModel.predict(watched)
 }
-    
-const tfliteModel = tflite.loadTFLiteModel(
-    "optimised_model.tflite");
-
-//const outputTensor = tf.tidy(() => {
-//    let outputTensor = tfliteModel.predict(input) as tf.Tensor;
-//  });
-//console.log(outputTensor);
