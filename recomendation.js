@@ -62,7 +62,7 @@ for (const [key, value] of Object.entries(file[0])) {
   watched[value] = 0
 }
 
-const tfliteModel = tflite.loadTFLiteModel(
+const tfliteModel = await tflite.loadTFLiteModel(
     "optimised_model.tflite");
 
 function setWatched(num){
