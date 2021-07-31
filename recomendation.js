@@ -71,7 +71,7 @@ function setWatched(num){
 }
     
 const tfliteModel = tflite.loadTFLiteModel(
-    "https://github.com/Dom-DJ/Animender/blob/master/optimised_model.tflite?raw=true");
+    "optimised_model.tflite");
 
 //const outputTensor = tf.tidy(() => {
 //    let outputTensor = tfliteModel.predict(input) as tf.Tensor;
