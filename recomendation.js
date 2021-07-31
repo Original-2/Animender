@@ -62,8 +62,12 @@ for (const [key, value] of Object.entries(file[0])) {
   watched[value] = 0
 }
 
-const tfliteModel = tflite.loadTFLiteModel(
-    "optimised_model.tflite");
+async function load_model() {
+    let m = await tflite.loadTFLiteModel('optimised_model.tflite')
+    return m;
+}
+
+let model = load_model();
 
 function setWatched(num){
     if (watched[num] == 0){
@@ -71,5 +75,5 @@ function setWatched(num){
         } else{
         watched[num] = 0;
     }
-    var pred = tfliteModel.predict(watched)
+    var pred = model.predict(watched)
 }
