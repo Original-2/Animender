@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width">
     <title>Animender</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-          <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-tflite"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-tflite@0.0.1-alpha.3/dist/tf-tflite.min.js"></script>
   </head>
   <body>
       <button type="button" class="collapsible">Open Collapsible</button>
 <div class="content">
+    
     <input type="text" id="mySearch" onkeyup="searchfilter()" placeholder="Search.." title="Type in a category">
 <div class="left" style="background-color:#bbb;">
     <ul id="myMenu">
