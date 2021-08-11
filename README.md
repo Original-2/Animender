@@ -25,6 +25,7 @@ An AI that recommends anime based on personal history.
 * promotion
 * showing more lower popularity shows (adjusting it)
 * bot parameters for better usage
+* commenting the js
 
 # contact me
 email: dominic311dj@gmail.com
