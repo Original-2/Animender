@@ -21,7 +21,7 @@ An AI that recommends anime based on personal history.
 
 # To be done
 * alphabetically sorted titles on the website - to be written
-* better handling of bad syntax (currently throws an error)
+* better handling of bad syntax (currently throws an error) - coded, will be implemented next deployment
 * promotion
 * showing more lower popularity shows (adjusting it)
 * bot parameters for better usage
