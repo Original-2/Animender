@@ -76,7 +76,6 @@ function convertBase(str, fromBase, toBase) {
 
     return out;
 }
-// reeee
 
 function searchfilter() {
   var input, filter, ul, li, p, i;
@@ -129,7 +128,6 @@ for (const [key, value] of Object.entries(filesalpha)) {
         entry.appendChild(paragraph);
         node.appendChild(entry);
 }}
-
 
 watched = []
 for (const [key, value] of Object.entries(file[0])) {
