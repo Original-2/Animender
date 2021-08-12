@@ -25,3 +25,5 @@ An AI that recommends anime based on personal history. You can use it here: http
 
 # contact me
 email: dominic311dj@gmail.com
+
+Please do not use this code without credditing me
