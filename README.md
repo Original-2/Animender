@@ -9,7 +9,7 @@ An AI that recommends anime based on personal history. You can use it here: http
 <br> ↓
 <br> Dense (transforms 2D array of shape (1000, 10) to 2D array of shape (1000, 32) with ReLU) - Infers features about each anime
 <br> ↓
-<br> Fatten (transforms 2D array of shape (1000, 32) to 1D array of shape (3200) - This allows the next layer to work
+<br> Flatten (transforms 2D array of shape (1000, 32) to 1D array of shape (3200) - This allows the next layer to work
 <br> ↓
 <br> Dense (1000 long array of probabilities of each 1000 animes being liked) - Predicts what anime suits the user with softmax
 <br> ───────────────────── training ─────────────────────
