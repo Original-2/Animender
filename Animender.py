@@ -94,4 +94,4 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-client.run('ODc0MzEwMjc4MjcwMDUwNDE1.YRFG5g.q-AbbpkhT5IFuUBid2GldvE7fnI') # OAUTH TOKEN
+client.run('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') # OAUTH TOKEN
