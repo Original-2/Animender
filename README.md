@@ -1,6 +1,9 @@
 # Animender
 An AI that recommends anime based on personal history. You can use it here: https://discord.gg/h6nTTprMKd.
 
+# File structure
+the files are ordered so that /train is for training files, /deployment is what you need to deploy the model as a discord bot and the root folder has the website and any miscelaneous files that are there by default
+
 # model explanation
 <br> ───────────────────── architecture ─────────────────────
 <br> Input (1D array of shape (1000)) - Conveys which anime has been watched (1 for true, 0 for false)
